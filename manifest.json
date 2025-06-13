@@ -3,7 +3,7 @@
   "name": "Power-Menu",
   "description": "Simple menu to change session state",
   "developer_name": "Joel Dantis",
-  "icon": "images/power.png",
+  "icon": "images/Shutdown.png",
   "options": {
     "query_debounce": 0.1
   },

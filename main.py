@@ -38,7 +38,7 @@ class KeywordQueryEventListener(EventListener):
         items = []
         states = ['Shutdown', 'Restart', 'Lock']
         for i in states:
-            items.append(ExtensionResultItem(icon='images/icon.png',
+            items.append(ExtensionResultItem(icon=f'images/{i}.png',
                                              name=i,
                                              description="",
                                              on_enter=ExtensionCustomAction(i)))
