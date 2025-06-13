@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Power-Menu",
+  "description": "Simple menu to change session state",
+  "developer_name": "Joel Dantis",
+  "icon": "images/power.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "pwmn",
+      "type": "keyword",
+      "name": "Power-Menu",
+      "description": "Keyword to launch extension",
+      "default_value": "pm"
+    }
+  ]
+}
